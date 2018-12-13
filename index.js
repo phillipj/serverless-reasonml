@@ -40,7 +40,7 @@ class ServerlessReasonMlPlugin {
           stdio: "inherit"
         })
         .on("error", err => reject(err))
-        .on('close', exitCode => exitCode === 0 ? resolve() : reject(new Error('Failed with code ' + exitCode));
+        .on('close', exitCode => exitCode === 0 ? resolve() : reject(new Error('Failed with code ' + exitCode)));
     });
   }
 }
