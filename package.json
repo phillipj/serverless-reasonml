@@ -10,6 +10,6 @@
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "bs-platform": "^4.0.5"
+    "bs-platform": "4.0.7"
   }
 }
