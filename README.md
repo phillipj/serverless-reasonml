@@ -49,6 +49,18 @@ plugins:
   - serverless-reasonml
 ```
 
+## Known challenges
+
+[bs-platform]() is required in production because it contains helper functions used by the
+code [bucklescript]() generates. At the time of writing this, there's lots of development tools
+included in bs-platform which results in a huge .zip file being created by the serverless framework.
+
+The initial experiements I've done so far, results in archives near 50MB for extremely simple functions.
+
+There are ongoing efforts in bs-platform splitting those development tools from the production utilities,
+until then, the archives created with this setup will be big in filesize. That's quickly a showstopper
+for Lamda@Edge functions which has a lot lower limit in regards to function archive filesize.
+
 ## Related resources
 
 - [@ahrefs/bs-aws-lambda](https://github.com/ahrefs/bs-aws-lambda) for extensible AWS Lambda typings
