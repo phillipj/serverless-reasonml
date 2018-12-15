@@ -1,12 +1,17 @@
 {
   "name": "serverless-reasonml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Serverless plugin to help write functions with Reason",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["reason", "reasonml", "serverless", "lambda"],
+  "keywords": [
+    "reason",
+    "reasonml",
+    "serverless",
+    "lambda"
+  ],
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/phillipj/serverless-reasonml/issues",
