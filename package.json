@@ -1,6 +1,6 @@
 {
   "name": "serverless-reasonml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serverless plugin to help write functions with Reason",
   "main": "index.js",
   "scripts": {
@@ -11,8 +11,8 @@
   "license": "MIT",
   "bugs": "https://github.com/phillipj/serverless-reasonml/issues",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/phillipj/serverless-reasonml.git"
+    "type": "git",
+    "url": "https://github.com/phillipj/serverless-reasonml.git"
   },
   "devDependencies": {
     "bs-platform": "^4.0.0"
