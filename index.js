@@ -10,7 +10,8 @@ class ServerlessReasonMlPlugin {
     this.hooks = {
       "before:package:createDeploymentArtifacts": this.bsbMakeWorld.bind(this),
       "before:offline:start": this.bsbWatch.bind(this),
-      "before:offline:start:init": this.bsbWatch.bind(this)
+      "before:offline:start:init": this.bsbWatch.bind(this),
+      "before:invoke:local:invoke": this.bsbMakeWorld.bind(this)
     };
   }
 
