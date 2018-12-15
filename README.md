@@ -13,7 +13,7 @@ although it has been valuable for personal use to get builds triggered at the ri
 ## Usage
 
 ```
-$ npm install --save serverless-reasonml
+$ npm install --save serverless-reasonml bs-platform
 ```
 
 Create a `bsconfig.json` with bucklescript configuration. Somewhat sensible example:
