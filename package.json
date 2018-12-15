@@ -1,6 +1,6 @@
 {
   "name": "serverless-reasonml",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serverless plugin to help write functions with Reason",
   "main": "index.js",
   "scripts": {
