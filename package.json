@@ -9,6 +9,11 @@
   "keywords": [],
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
+  "bugs": "https://github.com/phillipj/serverless-reasonml/issues",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/phillipj/serverless-reasonml.git"
+  },
   "devDependencies": {
     "bs-platform": "^4.0.0"
   },
