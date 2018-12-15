@@ -1,6 +1,6 @@
 # serverless-reasonml
 
-This project [serverless framework](https://serverless.com/framework/) plugin has been
+This is a [serverless framework](https://serverless.com/framework/) plugin that has been
 written for personal exploration while learning ReasonML and being curious about its
 plausible usage writing serverless functions.
 

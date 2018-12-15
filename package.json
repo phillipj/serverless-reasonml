@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["reason", "reasonml", "serverless", "lambda"],
   "author": "Phillip Johnsen <johphi@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/phillipj/serverless-reasonml/issues",
