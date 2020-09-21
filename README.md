@@ -61,6 +61,19 @@ There are ongoing efforts in bs-platform splitting those development tools from 
 until then, the archives created with this setup will be big in filesize. That's quickly a showstopper
 for Lamda@Edge functions which has a lot lower limit in regards to function archive filesize.
 
+## Deprecation notice
+
+Although this was a really interesting approach to serverless apps, I have personally not been using
+serverless for a while now.
+
+That's why this repository has been archived and read-only. I don't have any motivation working on this
+going forward, so developers stumbling upon this project, should not be expecting new cool updates.
+
+If this project could serve as a starting point for other cool projects and ideas, that would be really
+cool!
+
+Most importantly; just have fun folks!
+
 ## Related resources
 
 - [@ahrefs/bs-aws-lambda](https://github.com/ahrefs/bs-aws-lambda) for extensible AWS Lambda typings
